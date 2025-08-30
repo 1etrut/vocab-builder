@@ -24,6 +24,13 @@ def run():
     # - Add some spacing between words
     # - Show "No words yet!" if list is empty
     # Put your code here
+    for word in words:
+        if not words:
+            print("No words yet!")
+            return
+        else: 
+            print(word, end="\n\n")
+    
     
     for i, word_entry in enumerate(words, 1):
         print(f"{i}. {word_entry['word']}")

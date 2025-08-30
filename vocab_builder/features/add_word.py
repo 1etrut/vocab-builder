@@ -46,8 +46,8 @@ def collect_word() -> Dict:
     
     if not word: 
         return None
-    elif len(word) <= 20:
-        print("Please extend your word")
+    elif len(word) > 20:
+        print("Your word is too long")
         
     
     meaning = ask_str("Enter meaning: ")
@@ -58,8 +58,8 @@ def collect_word() -> Dict:
     
     if not meaning: 
         return None
-    elif len(meaning) <= 100:
-        print("Your word's meaning is too short")
+    elif len(meaning) > 100:
+        print("Your word's meaning is too long")
     
     
     return {

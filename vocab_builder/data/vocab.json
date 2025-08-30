@@ -1,4 +1,22 @@
 {
-  "meta": {"version": 1},
-  "words": []
+  "meta": {
+    "version": 1
+  },
+  "words": [
+    {
+      "word": "dog",
+      "meaning": "con cho",
+      "added_at": "2025-08-28T16:14:16.991145+00:00"
+    },
+    {
+      "word": "cat",
+      "meaning": "con meo",
+      "added_at": "2025-08-28T16:14:53.428558+00:00"
+    },
+    {
+      "word": "fish",
+      "meaning": "con ca",
+      "added_at": "2025-08-28T16:17:29.060006+00:00"
+    }
+  ]
 }

@@ -26,29 +26,6 @@ python --version
 python3 --version
 ```
 
-## Installation
-
-Use either Conda or the built-in venv. Python 3.9+ is required.
-
-### Option A: Conda (Windows/Mac/Linux)
-```cmd
-cd D:\SAT_Project\python-final-project-main   # or your project path
-conda create -n vocab_env python=3.11 -y
-conda activate vocab_env
-python -m pip install -r requirements.txt
-```
-
-### Option B: venv (built-in)
-```cmd
-cd D:\SAT_Project\python-final-project-main
-python -m venv .venv
-# Windows PowerShell
-. .\.venv\Scripts\Activate.ps1
-# macOS/Linux
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
 ### 3. **Run the App**
 ```cmd
 # Windows
@@ -58,9 +35,9 @@ python -m vocab_builder
 python3 -m vocab_builder
 ```
 
-### Run Tests
+If you don't have pytest and want to run the tests:
 ```cmd
-python -m pytest
+pip install pytest
 ```
 
 ## Learning Path - Simple Steps
